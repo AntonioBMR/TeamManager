@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_focused="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <gradient
+                android:startColor="#F7D358"
+                android:centerColor="#DF7401"
+                android:endColor="#F7D358"
+                android:angle="90"/>
+            <padding android:left="7dp"
+                android:top="7dp"
+                android:right="7dp"
+                android:bottom="7dp" />
+            <stroke
+                android:width="2dip"
+                android:color="#FFFFFF" />
+            <corners android:radius= "8dp" />
+        </shape>
+    </item>
+  <!--  <item
+        android:state_enabled="false"
+        android:drawable="@drawable/button_disabled" />
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/button_pressed" />-->
+    <item
+        android:state_focused="true"
+        android:state_enabled="true"
+        >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <gradient
+                android:startColor="#F7D358"
+                android:centerColor="#DF7401"
+                android:endColor="#F7D358"
+                android:angle="90"/>
+            <padding android:left="7dp"
+                android:top="7dp"
+                android:right="7dp"
+                android:bottom="7dp" />
+            <stroke
+                android:width="2dip"
+                android:color="#FFFFFF" />
+            <corners android:radius= "8dp" />
+        </shape>
+        </item>
+    <item
+        android:state_enabled="true"
+       >
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+
+            <gradient
+                android:startColor="#6f9dad"
+                android:centerColor="#3e6f80"
+                android:endColor="#1e4f60"
+                android:angle="90"/>
+            <padding android:left="7dp"
+                android:top="7dp"
+                android:right="7dp"
+                android:bottom="7dp" />
+            <stroke
+                android:width="2dip"
+                android:color="#FFFFFF" />
+            <corners android:radius= "8dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.antonio.android.appwebequipo" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoprincipal"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.antonio.android.appwebequipo.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+          >
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.antonio.android.appwebequipo.HiScreen"
+            android:screenOrientation="portrait"
+
+            android:theme="@android:style/Theme.NoTitleBar"
+          >
+        </activity>
+        <activity
+            android:name="com.antonio.android.appwebequipo.NuevoUsuario"
+            android:label="@string/title_activity_nuevo_usuario"
+            android:theme="@android:style/Theme">
+        </activity>
+        <activity
+            android:name="com.antonio.android.appwebequipo.MisEquipos"
+            android:label="@string/title_activity_mis_equipos"
+            android:theme="@android:style/Theme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.antonio.android.appwebequipo.MisCompisDeEquipo"
+            android:theme="@android:style/Theme"
+            android:label="@string/title_activity_mis_compis_de_equipo" >
+        </activity>
+        <activity
+            android:name="com.antonio.android.appwebequipo.Buscador"
+            android:label="@string/title_activity_buscador" >
+        </activity>
+        <activity
+            android:name="com.antonio.android.appwebequipo.Chat"
+            android:label="@string/title_activity_chat"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.antonio.android.appwebequipo.Convocatoria"
+            android:label="@string/title_activity_convocatoria"
+            android:theme="@android:style/Theme">
+        </activity>
+        <activity
+            android:name="com.antonio.android.appwebequipo.Formulario"
+            android:label="@string/title_activity_formulario"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.antonio.android.appwebequipo.Estadisticas"
+            android:label="@string/title_activity_estadisticas"
+            android:theme="@android:style/Theme">
+        </activity>
+    </application>
+
+</manifest>

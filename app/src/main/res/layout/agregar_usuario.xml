@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout1"
+
+    android:gravity="center_vertical">
+
+
+    <!--  Usuario Label -->
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/tv_usuario"
+        style="@style/textview"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp" />
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp"
+        android:singleLine="true"
+        android:id="@+id/usuarioAU"
+
+        android:background="@drawable/edittext_rounded_corners"
+
+        />
+
+    <!--  Password Label -->
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:text="@string/tv_pass"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp" />
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:password="true"
+        android:id="@+id/passwordAU"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_marginBottom="2dp" />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:text="@string/tv_rpass"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp" />
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:password="true"
+        android:id="@+id/password1AU"
+        android:background="@drawable/edittext_rounded_corners"
+
+        android:layout_marginBottom="2dp" />
+
+    <!-- Login button -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/boton_agregar"
+        style="@style/button"
+        android:onClick="agregarusuario"
+        android:id="@+id/btSignup"
+        android:layout_marginBottom="2dp" />
+
+    <!-- Link to Registration Screen -->
+
+    <!-- Link to forgot passw -->
+
+
+</LinearLayout>
+
+
+
+

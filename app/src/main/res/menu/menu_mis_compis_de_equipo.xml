@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.antonio.android.appwebequipo.MisCompisDeEquipo">
+    <item android:id="@+id/action_convocatoria" android:title="@string/action_convocatoria"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

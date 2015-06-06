@@ -1,0 +1,96 @@
+<LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:id="@+id/layout1" 
+          >
+              
+          
+          <!--  Usuario Label -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:background="@drawable/logoprincipal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:layout_marginTop="5dip"
+        android:text="@string/tv_usuario"
+        android:layout_gravity="center" />
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:id="@+id/edusuario"
+                android:background="@drawable/edittext_rounded_corners"
+                
+           />
+                
+          <!--  Password Label -->
+          
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFFFFF"
+              style="@style/textview"
+              android:text="@string/tv_pass"
+              android:layout_gravity="center" />
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:password="true"
+                android:id="@+id/edpassword"
+                android:background="@drawable/edittext_rounded_corners"
+                
+                />
+                
+        
+                
+          <!-- Login button -->
+          <Button 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/boton_aceptar"
+                style="@style/button"
+
+                android:id="@+id/Blogin"
+                />
+                
+          <!-- Link to Registration Screen -->
+          <Button android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boton_registrar"
+                android:gravity="center"
+              style="@style/button"
+              android:layout_marginTop="12dp"
+              android:layout_gravity="center" />
+         
+          <!-- Link to forgot passw -->
+                
+
+                 
+          
+                
+                
+                
+ 
+</LinearLayout>
+
+
+
+
+
+

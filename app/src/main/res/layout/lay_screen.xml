@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+
+    >
+
+
+    <TextView
+        style="@style/textview"
+        android:id="@+id/usr_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="22dip"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:text="crear equipo"
+        android:background="@drawable/agregare_selector"
+        android:onClick="crearequipo"
+        android:id="@+id/btCrearEquipo"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:text="Mis equipos"
+        android:background="@drawable/misequipos_selector"
+
+        android:onClick="misEquipos"
+        android:id="@+id/btMisEquipos"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:text="Chat"
+        android:background="@drawable/chat_selector"
+
+        android:onClick="chat"
+        android:id="@+id/btChat"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp" />
+
+   <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:text="buscarequipo"
+        android:background="@drawable/buscar_selector"
+        android:onClick="buscador"
+        android:id="@+id/btBuscEq"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:text="Ver Estadisticas"
+        android:background="@drawable/estadisticas_selector"
+
+        android:onClick="verEstadisticas"
+        android:id="@+id/btVerEst"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp" />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:text="Ver Estadisticas"
+        android:background="@drawable/borrar"
+
+        android:onClick="borrarUsuario"
+        android:id="@+id/btBorrar"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp" />
+    <Button
+        style="@style/button"
+        android:id="@+id/logoff"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/tv_cerrarsesion"
+        android:layout_gravity="bottom|center_horizontal" />
+
+
+</LinearLayout>
